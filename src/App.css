@@ -16,7 +16,24 @@
   text-decoration: none;
 }
 
-body {
+.body {
+  background-color: #0C1D17;
+  height: 100vh;
+}
+
+.home {
   background-color: #0C1D17;
 }
+
+.home .header {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.header {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #EFF5F3
+}
+
+
 
