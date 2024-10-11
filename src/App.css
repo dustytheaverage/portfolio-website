@@ -30,9 +30,21 @@
   text-align: center;
 }
 
+.home .subheader {
+  margin-top: 32px;
+  text-align: center;
+}
+
 .header {
   font-family: 'IBM Plex Mono', monospace;
-  color: #EFF5F3
+  color: #EFF5F3;
+  font-size: 64px;
+}
+
+.subheader {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #EFF5F3;
+  font-size: 32px;
 }
 
 
