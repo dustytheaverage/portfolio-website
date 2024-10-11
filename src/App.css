@@ -1,0 +1,22 @@
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #2BD69B;
+  border-bottom: 3px solid #139B6D;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px;
+}
+
+.navbar a {
+  
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #EFF5F3;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0C1D17;
+}
+
