@@ -1,8 +1,29 @@
 import React from 'react'
 
-function Project({project, classVar}: {project: React.ReactNode, classVar: string}) {
+enum State{
+  Planned,
+  InProgress,
+  Complete
+}
 
-  var hasImage;
+interface projectData {
+  title: string,
+  type: string,
+  position: string,
+  description: string,
+  skills: string,
+  linkNames: string[],
+  links: string[],
+  image?: string,
+  state: State
+}
+
+function Project({project, classVar}: {project: projectData, classVar: string}) {
+
+  var hasImage = false;
+  if(project.image != null){
+    hasImage = true;
+  }
 
   return (
     <div className={classVar}>Project</div>

@@ -35,6 +35,10 @@
   text-align: center;
 }
 
+.projectsPreface {
+  margin-top: 32px;
+}
+
 .header {
   font-family: 'IBM Plex Mono', monospace;
   color: #EFF5F3;
@@ -46,6 +50,16 @@
   font-family: 'IBM Plex Mono', monospace;
   color: #EFF5F3;
   font-size: 32px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.paragraph {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #EFF5F3;
+  font-size: 24px;
+  margin-left:20%;
+  margin-right:20%;
 }
 
 
