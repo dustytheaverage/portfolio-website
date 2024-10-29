@@ -1,4 +1,5 @@
 import React from 'react'
+import projectData from './projectData';
 
 enum State{
   Planned,
@@ -6,17 +7,7 @@ enum State{
   Complete
 }
 
-interface projectData {
-  title: string,
-  type: string,
-  position: string,
-  description: string,
-  skills: string,
-  linkNames: string[],
-  links: string[],
-  image?: string,
-  state: State
-}
+
 
 function ProjectLinks({texts, links}: {texts: string[], links: string[]}){
   var output = '';

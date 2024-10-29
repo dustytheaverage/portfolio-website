@@ -1,4 +1,5 @@
 import React from 'react'
+import projectData from '../components/projectData';
 import '../App.css'
 
 function Projects() {
