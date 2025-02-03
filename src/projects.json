@@ -1,47 +1,45 @@
-{
-  "projects": [
-    {
-      "title": "Skulls and Scrolls",
-      "type": "Game",
-      "position": "Programming Lead",
-      "description": "My Senior Year Game Design Capstone, to date this is the longest and biggest project I have worked on, with a team of 11 and a whole year to work on it. Developed in Unreal 4, the idea was to make a horde defense game where you crafted spells by stringing together components with certain functions. My responsibility was developing the spell system, which is what drew me to the premise in the first place. The system took up most of my development time, in part due to my pride and passion as well as my unfamiliarity with Unreal.",
-      "skills": "Unreal 4, C++, Project Managment, Scrum",
-      "linkNames": ["Itch.io", "Github"],
-      "links": ["https://skulls-and-scrolls.itch.io/skulls-and-scrolls-wip-sgx-may-2023",""],
-      "image": "../assets/SkullsAndScrollsPoster.png",
-      "state": "Completed"
-    },
-    {
-      "title": "Zoomstick",
-      "type": "Game",
-      "position": "Design Lead",
-      "description": "My Junior year game design project. We were a team of five this time, with three programmers and two artists, with me as the lead this time (de facto lead, it was my idea). Additionally, we were required to work using Phaser 3, a Javascript library, which was much more limited than the game engines I was used to in terms of features. This gave us a creative constraint, and I determined that a platformer that focused on game feel would work best. We must've done something right, because we ended up winning Best Gameplay for Junior Projects at Stout Game Expo. That might not amount to much in the grand scheme of things, but it was the first time a game I had made won an award, and I'm sure I'll hold onto the pride of that achievement for a good long while.",
-      "skills": "Javascript, Node.JS, Phaser 3, Game Design, Project Management",
-      "linkNames": ["Itch.io","Github"],
-      "links": ["https://eless0.itch.io/zoomstick",""],
-      "image": "../assets/zoomstick.png",
-      "state": "Completed"
-    },
-    {
-      "title": "Cryptid Slayer",
-      "type": "Game",
-      "position": "Programmer",
-      "description": "Working on a team with three other people over the course of three months, I helped create a finished top-down action game that we could be proud of. I acted as the AI specialist for the team, creating the AI for the boss fights we included in the game, using models like finite state machines to create readable and consistent code.",
-      "skills": "Unity, C#, Agile Methodologies, Scrum",
-      "linkNames": ["Itch.io","Github"],
-      "links": ["https://muhammadn1200.itch.io/cryptidslayer",""],
-      "image": "../assets/cryptidSlayerDemoImage.png",
-      "state": "Completed"
-    },
-    {
-      "title": "This Website",
-      "type": "Website",
-      "position": "Web Developer",
-      "description": "I started this project after feeling a desire to expand my skillset beyond that of game development. I thought that a little project outside of my normal wheelhouse would do the trick to get me back to learning again. I had done some web design freelancing before, but those had been small endeavors to help out individuals that didn't think themselves tech savvy enough to use website design tools like Wix or Wordpress, and so I used them in their stead. I even did this for myself, my previous portfolio site made using a Wix template. At some point, though, linking to a Wix site on my resume started to feel like a shortcoming I needed to overcome, and so I started this website as a way to learn React, and to give myself a testbed to continue to learn it with added features in the future. I expect this site to change quite a bit over the course of my career, from adding to this project page to developing new features entirely",
-      "skills": "React, Javascript, HTML, CSS, Website Design",
-      "linkNames": "",
-      "links": "",
-      "state": "In Progress"
-    }
-  ]
-}
+[
+  {
+    "title": "Skulls and Scrolls",
+    "type": "Game",
+    "position": "Programming Lead",
+    "description": "My Senior Year Game Design Capstone, to date this is the longest and biggest project I have worked on, with a team of 11 and a whole year to work on it. Developed in Unreal 4, the idea was to make a horde defense game where you crafted spells by stringing together components with certain functions. My responsibility was developing the spell system, which is what drew me to the premise in the first place. The system took up most of my development time, in part due to my pride and passion as well as my unfamiliarity with Unreal.",
+    "skills": "Unreal 4, C++, Project Managment, Scrum",
+    "linkNames": ["Itch.io", "Github"],
+    "links": ["https://skulls-and-scrolls.itch.io/skulls-and-scrolls-wip-sgx-may-2023",""],
+    "image": "../assets/SkullsAndScrollsPoster.png",
+    "state": "Completed"
+  },
+  {
+    "title": "Zoomstick",
+    "type": "Game",
+    "position": "Design Lead",
+    "description": "My Junior year game design project. We were a team of five this time, with three programmers and two artists, with me as the lead this time (de facto lead, it was my idea). Additionally, we were required to work using Phaser 3, a Javascript library, which was much more limited than the game engines I was used to in terms of features. This gave us a creative constraint, and I determined that a platformer that focused on game feel would work best. We must've done something right, because we ended up winning Best Gameplay for Junior Projects at Stout Game Expo. That might not amount to much in the grand scheme of things, but it was the first time a game I had made won an award, and I'm sure I'll hold onto the pride of that achievement for a good long while.",
+    "skills": "Javascript, Node.JS, Phaser 3, Game Design, Project Management",
+    "linkNames": ["Itch.io","Github"],
+    "links": ["https://eless0.itch.io/zoomstick",""],
+    "image": "../assets/zoomstick.png",
+    "state": "Completed"
+  },
+  {
+    "title": "Cryptid Slayer",
+    "type": "Game",
+    "position": "Programmer",
+    "description": "Working on a team with three other people over the course of three months, I helped create a finished top-down action game that we could be proud of. I acted as the AI specialist for the team, creating the AI for the boss fights we included in the game, using models like finite state machines to create readable and consistent code.",
+    "skills": "Unity, C#, Agile Methodologies, Scrum",
+    "linkNames": ["Itch.io","Github"],
+    "links": ["https://muhammadn1200.itch.io/cryptidslayer",""],
+    "image": "../assets/cryptidSlayerDemoImage.png",
+    "state": "Completed"
+  },
+  {
+    "title": "This Website",
+    "type": "Website",
+    "position": "Web Developer",
+    "description": "I started this project after feeling a desire to expand my skillset beyond that of game development. I thought that a little project outside of my normal wheelhouse would do the trick to get me back to learning again. I had done some web design freelancing before, but those had been small endeavors to help out individuals that didn't think themselves tech savvy enough to use website design tools like Wix or Wordpress, and so I used them in their stead. I even did this for myself, my previous portfolio site made using a Wix template. At some point, though, linking to a Wix site on my resume started to feel like a shortcoming I needed to overcome, and so I started this website as a way to learn React, and to give myself a testbed to continue to learn it with added features in the future. I expect this site to change quite a bit over the course of my career, from adding to this project page to developing new features entirely",
+    "skills": "React, Javascript, HTML, CSS, Website Design",
+    "linkNames": "",
+    "links": "",
+    "state": "In Progress"
+  }
+]
