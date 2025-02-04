@@ -1,13 +1,7 @@
 import React from 'react'
 import projectData from './projectData';
-
-enum State{
-  Planned,
-  InProgress,
-  Complete
-}
-
-
+// import skullsAndScrollsImage from '../assets/SkullsAndScrollsPoster.png'
+// import cryptidSlayerImage from '../assets/cryptidSlayerDemoImage.png'
 
 function ProjectLinks({texts, links}: {texts: string[], links: string[]}){
   var output = '';

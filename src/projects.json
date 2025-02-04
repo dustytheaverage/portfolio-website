@@ -1,5 +1,6 @@
 [
   {
+    "key": 1,
     "title": "Skulls and Scrolls",
     "type": "Game",
     "position": "Programming Lead",
@@ -7,21 +8,23 @@
     "skills": "Unreal 4, C++, Project Managment, Scrum",
     "linkNames": ["Itch.io", "Github"],
     "links": ["https://skulls-and-scrolls.itch.io/skulls-and-scrolls-wip-sgx-may-2023",""],
-    "image": "../assets/SkullsAndScrollsPoster.png",
+    "image": "/images/SkullsAndScrollsPoster.png",
     "state": "Completed"
   },
   {
+    "key": 2,
     "title": "Zoomstick",
     "type": "Game",
     "position": "Design Lead",
-    "description": "My Junior year game design project. We were a team of five this time, with three programmers and two artists, with me as the lead this time (de facto lead, it was my idea). Additionally, we were required to work using Phaser 3, a Javascript library, which was much more limited than the game engines I was used to in terms of features. This gave us a creative constraint, and I determined that a platformer that focused on game feel would work best. We must've done something right, because we ended up winning Best Gameplay for Junior Projects at Stout Game Expo. That might not amount to much in the grand scheme of things, but it was the first time a game I had made won an award, and I'm sure I'll hold onto the pride of that achievement for a good long while.",
+    "description": "My Junior year game design project. We were a team of five this time, with three programmers and two artists, with me as the project lead. Additionally, we were required to work using Phaser 3, a Javascript library, which was much more limited than the game engines I was used to in terms of features. This gave us a creative constraint, and I determined that a platformer that focused on game feel would work best. We must've done something right, because we ended up winning Best Gameplay for Junior Projects at Stout Game Expo. That might not amount to much in the grand scheme of things, but it was the first time a game I had made won an award, and I'm sure I'll hold onto the pride of that achievement for a good long while.",
     "skills": "Javascript, Node.JS, Phaser 3, Game Design, Project Management",
     "linkNames": ["Itch.io","Github"],
     "links": ["https://eless0.itch.io/zoomstick",""],
-    "image": "../assets/zoomstick.png",
+    "image": "/images/zoomstick.png",
     "state": "Completed"
   },
   {
+    "key": 3,
     "title": "Cryptid Slayer",
     "type": "Game",
     "position": "Programmer",
@@ -29,10 +32,11 @@
     "skills": "Unity, C#, Agile Methodologies, Scrum",
     "linkNames": ["Itch.io","Github"],
     "links": ["https://muhammadn1200.itch.io/cryptidslayer",""],
-    "image": "../assets/cryptidSlayerDemoImage.png",
+    "image": "/images/cryptidSlayerDemoImage.png",
     "state": "Completed"
   },
   {
+    "key": 4,
     "title": "This Website",
     "type": "Website",
     "position": "Web Developer",
