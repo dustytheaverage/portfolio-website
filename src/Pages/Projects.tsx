@@ -25,7 +25,8 @@ function Projects(this: any) {
       <div >
         {ProjectList.map(project => {
           let projData: projectData = 
-          {title: project.title,
+          {key: project.key,
+            title: project.title,
             type: project.type,
             position: project.position,
             description: project.description,

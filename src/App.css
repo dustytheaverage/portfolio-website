@@ -64,19 +64,28 @@
 
 .projectTable {
   font-family: 'IBM Plex Mono', monospace;
-  color :#EFF5F3;
+  color:#EFF5F3;
+  width: 90%;
+  margin: auto;
+  
 }
 
 .projectTable .col1 {
-  margin-left: 10%;
+  
 }
 
 .projectType1 {
   background-color: #2BD69B;
+  border-width: 5px;
+  border-color: #139B6D;
+  border-bottom-style: solid;
 }
 
 .projectType2 {
   background-color: #0C1D17;
+  border-width: 5px;
+  border-color: #139B6D;
+  border-bottom-style: solid;
 }
 
 
