@@ -4,13 +4,15 @@ import projectData from './projectData';
 // import cryptidSlayerImage from '../assets/cryptidSlayerDemoImage.png'
 
 function ProjectLinks({texts, links}: {texts: string[], links: string[]}){
-  var output = '';
+  let output = '';
 
   for(let i = 0; i < texts.length; i++){
     output += <a href={links[i]}>{texts[i]}  </a>;
   }
 
-  return(output)
+  return(
+    <a href={links[0]}>{texts[0]}</a>
+  )
 }
 
 function Project(project: projectData, classVar: string) {
@@ -24,7 +26,7 @@ function Project(project: projectData, classVar: string) {
     return (
       <div className={classVar} key={project.key}>
         <table className='projectTable'>
-          <tbody>
+          <tbody className='withImage'>
             <tr>
               <th className={'col1'} style={{fontSize: 48}}>{project.title} - {project.type}</th>
               <th className='col2'></th>
@@ -33,7 +35,7 @@ function Project(project: projectData, classVar: string) {
               <td style={{fontSize: 32}}>Position - {project.position}</td>
             </tr>
             <tr>
-              <td style={{fontSize: 24}}>Description: {project.description}</td>
+              <td style={{fontSize: 24}} className='col1'>Description: {project.description}</td>
               <td><img src={project.image} /></td>
             </tr>
             <tr>
