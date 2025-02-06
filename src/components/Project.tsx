@@ -4,15 +4,21 @@ import projectData from './projectData';
 // import cryptidSlayerImage from '../assets/cryptidSlayerDemoImage.png'
 
 function ProjectLinks({texts, links}: {texts: string[], links: string[]}){
-  let output = '';
-
-  for(let i = 0; i < texts.length; i++){
-    output += <a href={links[i]}>{texts[i]}  </a>;
+  let i = -1;
+  if(texts.length > 0){
+    return(
+      <td style={{fontSize: 32}}>Links:{
+        links.map(link =>{
+        i++;
+        return (
+          <a href= {link}>{texts[i]}  </a>
+        )
+      })}</td>
+    )
   }
-
-  return(
-    <a href={links[0]}>{texts[0]}</a>
-  )
+  else{
+    return(<td></td>)
+  }
 }
 
 function Project(project: projectData, classVar: string) {
@@ -42,7 +48,7 @@ function Project(project: projectData, classVar: string) {
               <td style={{fontSize: 32}}>Primary Skills: {project.skills}</td>
             </tr>
             <tr>
-              <td style={{fontSize: 32}}>Links: <ProjectLinks texts={project.linkNames} links={project.links} /></td>
+              <ProjectLinks texts={project.linkNames} links={project.links} />
             </tr>
           </tbody>
         </table>
@@ -68,7 +74,7 @@ function Project(project: projectData, classVar: string) {
               <td style={{fontSize: 32}}>Primary Skills: {project.skills}</td>
             </tr>
             <tr>
-              <td style={{fontSize: 32}}>Links: <ProjectLinks texts={project.linkNames} links={project.links} /></td>
+              <ProjectLinks texts={project.linkNames} links={project.links} />
             </tr>
           </tbody>
         </table>
