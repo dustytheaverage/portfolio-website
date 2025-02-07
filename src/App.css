@@ -71,7 +71,12 @@
 }
 
 .projectTable .col1 {
-  
+  width:70%;
+}
+
+.projectTable .col2 {
+  margin-left:10%;
+  text-align: center;
 }
 
 .projectType1 {
