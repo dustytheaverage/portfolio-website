@@ -9,7 +9,7 @@ function ProjectLinks({texts, links}: {texts: string[], links: string[]}){
         links.map(link =>{
         i++;
         return (
-          <a href= {link}>{texts[i]}  </a>
+          <a href= {link} key={i}>{texts[i]}  </a>
         )
       })}</td>
     )
@@ -29,7 +29,7 @@ function Project(project: projectData, classVar: string) {
   if(hasImage === true){ //Project Version if project has associated image
     return (
       <div className={classVar} key={project.key}>
-        <table className='projectTable'>
+        <table className='projectTable' key={project.key}>
           <tbody className='withImage'>
             <tr>
               <th className={'col1'} style={{fontSize: 48}}>{project.title} - {project.type}</th>
@@ -56,7 +56,7 @@ function Project(project: projectData, classVar: string) {
   else{
     return ( //Project version for if project has no image
       <div className={classVar} key={project.key}>
-        <table className='projectTable'>
+        <table className='projectTable' key={project.key}>
           <tbody>
             <tr>
               <th className={'colFulltext'} style={{fontSize: 48}}>{project.title} - {project.type}</th>
